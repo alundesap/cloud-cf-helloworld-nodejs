@@ -10,3 +10,4 @@ steps:
       org: 'A-Team_ml'
       space: 'ml'
       credentialsId: 'CF_CREDENTIALSID'
+      dockerWorkspace: '/home/jenkins/piper'
