@@ -12,3 +12,7 @@ steps:
       space: 'ml'
       credentialsId: 'CF_CREDENTIALSID'
       dockerWorkspace: '/home/jenkins/piper'
+  mailSendNotifiction:
+    notificationAttachment: true
+    notificationRecipients: 'andrew.lunde@sap.com'
+    notifyCulprits: false

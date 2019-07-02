@@ -10,6 +10,7 @@ node() {
     }
     stage('deploy') {
         cloudFoundryDeploy script: this
+        mailSendNotification script: this
     }
 }
 
