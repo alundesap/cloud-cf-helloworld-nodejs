@@ -1,7 +1,6 @@
 @Library('piper-lib-os') _
 node() {
     stage('prepare') {
-        deleteDir()
         checkout scm
         setupCommonPipelineEnvironment script:this
     }
